@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #82616d;
+}
+#mtxt{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+
+}
+#mtxt h1{
+    white-space: nowrap;
+    user-select: none;
+    font-family: "Montserrat";
+    font-weight: 100;
+    font-size: 9vw;
+    color: #fff;
+    line-height: 1;
+}
+#mtxt h3{
+    white-space: nowrap;
+    user-select: none;
+    font-family: "Montserrat";
+    font-weight: 100;
+    font-size: 4vw;
+    color: #fff;
+    line-height: 1;
+}
+
+#left{
+    width: 45%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.nav{
+    display: flex;
+    gap: 100px;
+    width: 100%;
+    color: #fff;
+    padding: 50px 60px;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+.nav h3{
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 4px;
+}
+.centerimg{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: 50%;
+    background-image: url(/Assets/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.centerimg .text{
+    display: flex;
+    position: absolute;
+    bottom: -110px;
+    width: 100%;
+    color: #fff;
+}
+.centerimg .text .parts{
+    width: 30%;
+}
+
+.centerimg .text .parts h5{
+    margin-bottom: 20px;
+}
+.centerimg .text .partxt{
+    width: 70%;
+}
+.centerimg .text .partxt p{
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.scroll{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    bottom: -10px;
+    left: 9%;
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);
+
+}
+.scroll .line{
+    width: 200px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.scroll h4{
+    color: #fff;
+    letter-spacing: 10px;
+    font-size: 12px;
+}
+
+#center{
+    width: 50%;
+    height: 100%;
+    background-image: url(/Assets/ayo-ogunseinde-HEvQ8P4eqlg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#center .card{
+    position: absolute;
+    bottom: 20px;
+    right: -50px;
+    width: 260px;
+    height: 170px;
+    background-color: #fff;
+    display: flex;
+}
+
+#center .card .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    width: 20%;
+    height: 100%;
+}
+
+#center .card .icons i{
+    font-size: 25px;
+}
+
+#center .card .img{
+    width: 80%;
+    height: 100%;
+    background-image: url(/Assets/elice-moore-E--AUpYXbjM-unsplash.jpg);
+    background-size: cover;
+    /* z-index: 9; */
+}
+#right{
+    width: 5%;
+    height: 100%;
+}
+.relem{
+    padding:30px 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height:70%;
+    color: #fff;
+}
+.relem .relemlinks{
+    display: flex;
+    transform:translateY(-150px) rotate(90deg);
+    gap: 50px;
+}
+
+.relem .relemlinks a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
