@@ -73,7 +73,7 @@ html,body{
     transform: translate(-50%,-50%);
     width: 40%;
     height: 50%;
-    background-image: url(/Assets/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg);
+    background-image: url(./Assets/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -126,7 +126,7 @@ html,body{
 #center{
     width: 50%;
     height: 100%;
-    background-image: url(/Assets/ayo-ogunseinde-HEvQ8P4eqlg-unsplash.jpg);
+    background-image: url(./Assets/ayo-ogunseinde-HEvQ8P4eqlg-unsplash.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -158,7 +158,7 @@ html,body{
 #center .card .img{
     width: 80%;
     height: 100%;
-    background-image: url(/Assets/elice-moore-E--AUpYXbjM-unsplash.jpg);
+    background-image: url(./Assets/elice-moore-E--AUpYXbjM-unsplash.jpg);
     background-size: cover;
     /* z-index: 9; */
 }
